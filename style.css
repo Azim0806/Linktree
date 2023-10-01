@@ -52,7 +52,10 @@ body {
     margin: 27px auto;
 }
 
+
+
 .link {
+    height:34px;
     position: relative;
     background-color: transparent;
     color: var(--accentColor);
@@ -135,8 +138,7 @@ body {
 }
 
 
-/*-------------------------popup------------------------*/
-/* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
+
 .overlay {
     display: flex;
     align-items: center;
@@ -237,8 +239,7 @@ body {
 }
 
 
-/*-----------------------parallax-----------------------*/
-/* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
+
 #stars1 {
     width: 1px;
     height: 1px;
