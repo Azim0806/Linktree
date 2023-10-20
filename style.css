@@ -23,6 +23,8 @@ body {
     position: relative;
 }
 
+
+
 #profilePicture, #profilePicture img {
     position: relative;
     width: 96px;
@@ -52,10 +54,15 @@ body {
     margin: 27px auto;
 }
 
-
+a{
+    text-decoration: none;
+}
+i{
+    padding-top: 10px;
+}
 
 .link {
-    height:34px;
+    height:40px;
     position: relative;
     background-color: transparent;
     color: var(--accentColor);
@@ -63,11 +70,12 @@ body {
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
-    display: block;
+    display:  block;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    padding: 10px; /* 17px */
+    /* margin-top: 10px; */
+    padding: 10px  ;
     text-decoration: none;
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
@@ -77,6 +85,8 @@ body {
     .link:hover {
         background-color: var(--accentColor);
         color: var(--bgColor);
+        height: 43px;
+
     }
 }
 
