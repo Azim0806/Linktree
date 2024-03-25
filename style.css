@@ -8,6 +8,11 @@
     --delay: .3s;
 }
 
+
+::-webkit-scrollbar{
+    display: none;
+}
+
 body {
     margin: 0;
     padding: 0;
